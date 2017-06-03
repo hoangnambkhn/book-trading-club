@@ -151,3 +151,26 @@ body {
   color: white;
 }
 
+.glyphicon {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.page-header {
+  padding : 50px;
+  height: 300px;
+  width: 100%;
+/*   border-style:solid;
+  border-width : 1px; */
+  
+  
+}
+h2 {
+  size:15px;
+}
