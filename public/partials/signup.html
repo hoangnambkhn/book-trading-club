@@ -1,0 +1,67 @@
+<div class = "login-container">
+    <div class = "login-service">
+      <h2 class="strikeThrough"><span>--------Đăng ký bằng--------</span></h2>
+      
+      <div class = "service-btn" >
+        <a>
+          <button id = "btn btn-start" class = "btn btn-service btn-facebook">Facebook</button>
+        </a>
+        <a>
+          <button id = "btn btn-pause" class = "btn btn-service btn-twitter">Twitter</button>
+        </a>
+        <a>
+          <button id = "btn btn-reset" class = "btn btn-service btn-google">Google</button>
+        </a>
+        
+      </div>
+       <h2 class="strikeThrough"><span>-------------Hoặc-------------</span></h2>
+    </div>
+    <div class = "form-container">
+      <form id ="login-form"  ng-submit="signup()" >
+<!--         <div class = "form-group">
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="E-mail">
+        </div> -->
+<!--          <div class = "form-group">
+          <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Họ và tên">
+        </div> -->
+         <div class = "form-group">
+          <input class="form-control" id="inputUser" placeholder="Tên người dùng" ng-model="user.username">
+        </div>
+        <div class = "form-group">
+          <input type="password" class="form-control" id="inputPassword1" placeholder="Mật khẩu" ng-model="user.password">
+        </div>
+<!--         <div class = "form-group">
+          <label for="example-datetime-local-input" class="left col-form-label">Ngày sinh</label>
+          <input class="form-control" type="date" value="2011-08-19" id="example-datetime-local-input">
+        </div> -->
+<!--         <div class="form-group">
+          <label class = "left" for="exampleSelect1">Giới tính</label>
+          <select class="form-control" id="exampleSelect1">
+            <option value = "male">Nam</option>
+            <option value = "female">Nữ</option>
+            <option value = "other" >Khác</option>
+          </select>
+        </div> -->
+        <div class="simpleFormItem" id="signupFooter">Bằng việc đăng ký bạn đồng ý với <a target="_blank" rel="noopener" href="https://about.ask.fm/terms/?lang=vi">Điều khoản</a> và <a target="_blank" rel="noopener" href="https://about.ask.fm/privacy-policy/?lang=vi">Chính sách quyền riêng tư</a> của chúng tôi
+          <div>
+        <div class = "form-group">
+          <button type="submit" value="SignUp" class="btn-submit btn btn-primary">Đăng ký</button>
+        </div>
+            <p>
+      Tên của bạn và bất kỳ thông tin nào được đăng trên hồ sơ của bạn sẽ được hiển thị cho người dùng khác. Thông tin bạn cung cấp có thể được chia sẻ với các bên thứ ba như được giải thích trong <a target="_blank" rel="noopener" href="https://about.ask.fm/privacy-policy/?lang=vi">Chính sách Quyền riêng tư</a> của chúng tôi. Vui lòng không cung cấp bất kỳ thông tin nào mà bạn không muốn bị chia sẻ.
+    </p>
+<!--         <div class="simpleFormItem form-group">
+          <div style = "float : left">
+             <input type="checkbox"  name="remember_me" id="rememberMe" value="1" class="checkbox" checked="checked">
+          <label for="rememberMe">Nhớ tôi</label>
+          </div>
+         
+          <a style = "float : right" href="/login/recover">Bạn quên mật khẩu?</a>
+        </div> -->
+        
+   
+        
+    </form>
+    </div>
+    
+  </div>
